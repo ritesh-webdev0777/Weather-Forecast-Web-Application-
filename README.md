@@ -12,6 +12,9 @@ This is a simple and responsive weather website that allows users to check the c
 
 🎨 Clean and simple UI
 
+<img width="1366" height="593" alt="image" src="https://github.com/user-attachments/assets/f7339bee-cf8c-4fb3-b556-79b976a390fc" />
+
+
 🚀 Tech Stack
 HTML, CSS, JavaScript (or React/Node if you used it)
 
