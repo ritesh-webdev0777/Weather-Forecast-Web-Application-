@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Weather App</title>
+  <link rel="stylesheet" href="App.css" />
+</head>
+<body>
+  <!-- 🌗 Theme Toggle -->
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="themeSwitcher" />
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <div class="container">
+    <h1>🌤️ Weather App</h1><h6>Develop by Riesh</h6>
+    <div class="search">
+      <input type="text" id="cityInput" placeholder="Enter city..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="weather-box" id="weatherBox">
+      <!-- <div id="animationContainer" class="animation"></div> -->
+      <h2 id="location">City, Country</h2>
+      <h1 id="temperature">--°C</h1>
+      <p id="condition">Condition</p>
+      <p id="humidity">Humidity: --%</p>
+      <p id="wind">Wind: -- km/h</p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/lottie-web@5.7.4/build/player/lottie.min.js"></script>
+  <script src="App.js"></script>
+</body>
+</html>
